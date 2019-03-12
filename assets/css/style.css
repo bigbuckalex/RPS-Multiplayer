@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+button{
+    display: block;
+    margin: auto;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+input{
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.row{
+    background-color: blue;
+}
+
+#content{
+    width: 70%;
+    background-color: red;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+@media (max-width: 768px) {
+    #content{
+        width: 100%;
+        background-color: red;
+        margin: auto;
+    }
+}
